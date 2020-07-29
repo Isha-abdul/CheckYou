@@ -120,7 +120,7 @@ input[type=radio]{
        color:black;
        font-weight: 700;
        float: left;
-       margin-right: 0px;
+       margin-left: 20px;
 }
 
 @media screen and (max-width:550px){
