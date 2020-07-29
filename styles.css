@@ -119,7 +119,7 @@ input[type=radio]{
        font-size: 20px;
        color:black;
        font-weight: 700;
-       float: right;
+       float: left;
        margin-right: 0px;
 }
 
