@@ -1,0 +1,160 @@
+
+body{
+background-color: darkgray;
+}
+
+h1 {
+    font-family: lobster, cursive Verdana, Geneva; 
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    clear: both;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: lavenderblush;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: 30px;
+    padding-bottom: 0px;
+    height: 60px;
+    
+}
+
+li:hover{
+    background-color: wheat;
+    opacity: 0.8;
+    color: black;
+}
+
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 2em;
+    cursor: pointer;
+}
+
+
+/* Quiz features */
+.testDiv {
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 5px;
+	position: relative;
+	height: 100%;
+    border: 3px solid rgba(255, 255, 255, 1);
+    background-color:rgb(91, 92, 121);
+    border-radius: 10% 10%;
+    box-shadow: 0px 0px 13px 2px rgb(0, 0, 0);
+}
+
+.nextButton{
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color:  rgb(248, 240, 255);
+    color: rgb(91, 92, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+		padding-top: 20px;
+		cursor: pointer;
+}
+.nextButton:hover{
+	opacity: 0.7;
+}
+
+.test{
+    font-family: lobster, cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    height: 60px;
+	margin: 30px auto;
+	padding-bottom: 20x;
+    border-radius: 5px;
+    text-align: center;
+    color:  rgb(248, 240, 255);
+    overflow: auto;
+}
+
+.testPrompt{
+    background-color: rgb(248, 240, 255);
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(91, 92, 121);
+}
+
+.optionList {
+    font-family: 'Courier New', Courier, monospace;
+    color: plum;
+}
+
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: cadetblue;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bar{
+       width: 30%;
+       font-size: 20px;
+       color:black;
+       font-weight: 700;
+       float: right;
+       margin-right: 0px;
+}
+
+@media screen and (max-width:550px){
+    h1{
+        font-size: 10px;
+    }
+
+    body{
+        align-items: center;
+    }
+
+    li{
+        font-size: 10px;
+        display: block;
+    }
+
+    input[type=radio]{
+        width: 20%;
+    }
+
+    .test{
+        font-size: 10px;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    .result {
+        width: 60%;
+        height: 40%;
+    }
+
+    .testPrompt{
+        width: 60%;
+        height: 40%;
+    }
+}
